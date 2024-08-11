@@ -34,3 +34,7 @@ sdkmanager --sdk_root=$ANDROID_HOME "build-tools;34.0.0"
 
 Bước 4: Chạy file requirment.sh trong folder code_static
 ./requirement.sh
+
+Bước 5: Tạo folder uploads ở trong folder server_final
+cd server_final
+mkdir uploads
