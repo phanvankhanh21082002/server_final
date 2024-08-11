@@ -1,0 +1,13 @@
+ML Output for /home/khanhpvse160256/apk_analysis/3886396243c7a35fad0ac520cbe39a6f1715e98a21933ed4d5d159355199b442/3886396243c7a35fad0ac520cbe39a6f1715e98a21933ed4d5d159355199b442.apk: 
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m2s[0m 2s/step
+
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 293ms/step
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 293ms/step
+File: asdadadadv.dex.png, Prediction: 0.9867, Label: Malware
+File: classes.dex.png, Prediction: 0.1701, Label: Clean
+
+ClamAV Output saved to /home/khanhpvse160256/apk_analysis/3886396243c7a35fad0ac520cbe39a6f1715e98a21933ed4d5d159355199b442/3886396243c7a35fad0ac520cbe39a6f1715e98a21933ed4d5d159355199b442_clamav.txt
+Debug: Infected files: 1
+Reports moved to /var/www/html/reports_txt and /var/www/html/reports_html
+All scripts have finished for /home/khanhpvse160256/apk_analysis/3886396243c7a35fad0ac520cbe39a6f1715e98a21933ed4d5d159355199b442/3886396243c7a35fad0ac520cbe39a6f1715e98a21933ed4d5d159355199b442.apk

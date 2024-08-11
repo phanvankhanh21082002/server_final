@@ -1,0 +1,15 @@
+ML Output for /home/khanhpvse160256/apk_analysis/0753978ee0155e89378a88698e46e5ecc12eff962973725b45ea49018c2af6d8/0753978EE0155E89378A88698E46E5ECC12EFF962973725B45EA49018C2AF6D8.apk: 
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 581ms/step
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 582ms/step
+File: classes.dex.png, Prediction: 0.6295, Label: Malware
+
+ClamAV Output saved to /home/khanhpvse160256/apk_analysis/0753978ee0155e89378a88698e46e5ecc12eff962973725b45ea49018c2af6d8/0753978ee0155e89378a88698e46e5ecc12eff962973725b45ea49018c2af6d8_clamav.txt
+Debug: Infected files: 0
+Traceback (most recent call last):
+  File "/home/khanhpvse160256/code_static/parallel_2.py", line 170, in <module>
+    main(apk_file_path, extract_folder, file_hash)
+  File "/home/khanhpvse160256/code_static/parallel_2.py", line 157, in main
+    move_files_when_ready(extract_folder, file_hash, f"Result: {final_result}")
+  File "/home/khanhpvse160256/code_static/parallel_2.py", line 69, in move_files_when_ready
+    os.rename(html_file_path, os.path.join(reports_html_dir, f"{file_hash}.html"))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/khanhpvse160256/apk_analysis/0753978ee0155e89378a88698e46e5ecc12eff962973725b45ea49018c2af6d8/0753978ee0155e89378a88698e46e5ecc12eff962973725b45ea49018c2af6d8.html' -> '/var/www/html/reports_html/0753978ee0155e89378a88698e46e5ecc12eff962973725b45ea49018c2af6d8.html'
