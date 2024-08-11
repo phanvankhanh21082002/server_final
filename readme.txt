@@ -38,3 +38,8 @@ Bước 4: Chạy file requirment.sh trong folder code_static
 Bước 5: Tạo folder uploads ở trong folder server_final
 cd server_final
 mkdir uploads
+
+Bước 6: Chạy server apache2, nodejs, và file monitor.sh
+sudo systemctl start apache2
+node server.js trong folder server
+./monitor.sh trong folder scan
